@@ -1,8 +1,7 @@
-#ifndef __RATIONAL_H
-#define __RATIONAL_H
+#ifndef __Complex_H
+#define __Complex_H
 
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -28,7 +27,6 @@ ComplexNumber operator+(const ComplexNumber &cn1, const ComplexNumber &cn2);
 ComplexNumber operator+(const double &cn1, const ComplexNumber &cn2);
 
 string operator==(const ComplexNumber &cn1, const ComplexNumber &cn2);
-
 
 
 #endif

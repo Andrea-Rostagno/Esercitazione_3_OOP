@@ -1,6 +1,5 @@
 #include "src/ComplexNumber.hpp"
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -17,7 +16,7 @@ int main(){
     ComplexNumber cn;
     cout<<"The default number is:"<<cn<<endl;
 
-    ComplexNumber cn1(1.034005,-1);
+    ComplexNumber cn1(1.00005,1);
     cout<<"The first complex number is:"<<cn1<<endl;
 
     ComplexNumber cn2(1,1);
@@ -33,12 +32,6 @@ int main(){
     cout << "The numbers are equal? "<<uguaglianza<<endl;
 
     cout<<"The conjugate is:"<<conjugate(cn2)<<endl;
-
-
-
-
-
-
 
 
 }
